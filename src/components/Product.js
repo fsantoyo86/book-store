@@ -11,7 +11,7 @@ export default class Product extends Component {
         <ProductConsumer>
           {(msg) => (
             <div
-              className="container w-56 rounded-lg shadow bg-white my-5 "
+              className="container lg:w-56 md:w-56 sm:w-72 w-72 rounded-lg shadow bg-white my-5 "
               onClick={() => msg.handleDetail(id)}
             >
               <div className="flex justify-center items-center flex-col ">
